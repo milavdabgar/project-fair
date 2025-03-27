@@ -14,3 +14,6 @@ A basic Flask web application.
    ```
 
 The server will start at http://localhost:5000
+
+
+WE are ready to serve this web app.
