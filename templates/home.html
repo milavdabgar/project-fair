@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to Flask App</h1>
+<p class="lead">This is a simple Flask application demonstrating routes and templates.</p>
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Current Time</h5>
+                <p class="card-text">{{ current_time }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
